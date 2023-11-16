@@ -6,7 +6,7 @@ import 'swagger-ui-react/swagger-ui.css';
 
 export default function Appraisal() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Autolle.com api documents</title>
         <link rel="icon" href="/favicon.ico" />
