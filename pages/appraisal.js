@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import SwaggerUI from 'swagger-ui-react';
+import 'swagger-ui-react/swagger-ui.css';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div >
       <Head>
         <title>Autolle.com api documents</title>
         <link rel="icon" href="/favicon.ico" />
@@ -10,6 +12,7 @@ export default function Home() {
 
       <main>
         Hello world
+        <SwaggerUI url="https://petstore.swagger.io/v2/swagger.json" />
       </main>
 
     </div>
