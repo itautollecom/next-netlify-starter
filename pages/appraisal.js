@@ -12,7 +12,12 @@ export default function Home() {
 
       <main>
         Hello world
-        <SwaggerUI url="https://petstore.swagger.io/v2/swagger.json" />
+        <br />
+        https://open-api.netlify.com/swagger.json
+        <br />
+        https://petstore.swagger.io/v2/swagger.json
+        <br />
+        {/* <SwaggerUI url="https://open-api.netlify.com/swagger.json" /> */}
       </main>
 
     </div>
